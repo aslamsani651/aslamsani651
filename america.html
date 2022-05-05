@@ -1,0 +1,572 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>web templates</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0px;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .header {
+            margin-top: 8px;
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: white;
+            box-shadow: 0px 3px 3px 0px lightgray;
+            height: 100px;
+        }
+
+        li {
+            float: right;
+            display: flex;
+            padding-right: 75px;
+        }
+
+        li a {
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            color: white;
+            padding: 20px 35px;
+        }
+
+        .menu {
+            border: 1px solid brown;
+            border-radius: 99px;
+            text-align: center;
+            width: 110px;
+            margin-right: 19px;
+            margin-top: 50px;
+            margin-bottom: 47px;
+            color: white;
+            height: 40px;
+            background-color: brown;
+        }
+
+        .menu p {
+            margin-top: 10px;
+            font-size: 11px;
+        }
+
+        .menu1 {
+            border: 1px solid darkblue;
+            border-radius: 99px;
+            text-align: center;
+            width: 160px;
+            margin-right: 20px;
+            margin-top: 50px;
+            margin-bottom: 47px;
+            background-color: darkblue;
+            color: white;
+            height: 40px;
+        }
+
+        .menu1 p {
+            margin-top: 10px;
+            font-size: 11px;
+        }
+
+        .logo {
+            margin-bottom: -110px;
+            padding-left: 90px;
+        }
+
+        .pic img {
+            width: 100%;
+            margin-top: -14px;
+            height: 550px;
+        }
+
+        .sidee {
+            display: flex;
+            margin-left: 8px;
+        }
+
+        .side {
+            background-image: url("./header\ img.png");
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            margin-top: -13px;
+        }
+
+        .para {
+            margin-top: 100px;
+            margin-left: 150px;
+        }
+
+        .click-button {
+            display: flex;
+        }
+
+        .button {
+            border: 1px solid brown;
+            background: brown;
+            border-radius: 99px;
+            width: 180px;
+            color: white;
+            height: 44px;
+            text-align: center;
+            margin-left: -7px;
+        }
+
+        .button1 {
+            border: 1px solid darkblue;
+            margin-left: 8px;
+            background: darkblue;
+            border-radius: 99px;
+            width: 180px;
+            height: 44px;
+            color: white;
+            text-align: center;
+        }
+
+        .button3 {
+            border: 1px solid;
+            margin-left: 8px;
+            background: darkblue;
+            border-radius: 99px;
+            margin-top: -20px;
+            color: white;
+            width: 180px;
+            height: 44px;
+            text-align: center;
+        }
+
+        .laptop img {
+            width: 100%;
+            height: 560px;
+            margin-top: 50px;
+            margin-left: 0px;
+        }
+
+        .intro {
+            display: flex;
+        }
+
+        .thum img {
+            width: 80%;
+        }
+
+        .info {
+            margin-left: -150px;
+            margin-top: 70px;
+        }
+
+        .border {
+            background-color: rgb(245 245 245);
+            border: 1px solid lightgray;
+            width: 100%;
+        }
+
+        .text {
+            text-align: center;
+            padding-top: 25px;
+        }
+
+        .silder {
+            padding-left: 220px;
+            padding-top: 25px;
+        }
+
+        .break {
+            display: flex;
+        }
+
+        .nail img {
+            width: 75%;
+            height: 600px;
+        }
+
+        .new-info {
+            margin-top: 141px;
+            font-size: 18px;
+        }
+
+        .travl {
+            text-align: center;
+            padding-top: 25px;
+        }
+
+        .box {
+            padding-top: 25px;
+        }
+
+        .banner img {
+            width: 100%;
+            text-align: center;
+            background-image: url(Banner\ Image.png);
+        }
+
+        .control {
+            display: flex;
+            margin-left: 80px;
+            margin-right: 40px;
+        }
+
+        .box-items {
+            border: 1px solid brown;
+            width: 30%;
+            color: white;
+            height: 331px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px 2px lightgray;
+            background-color: brown;
+        }
+
+        .box-items img {
+            height: 90px;
+            margin-left: 22;
+            margin-top: 19px;
+        }
+
+        .box-item {
+            border: 1px solid white;
+            width: 30%;
+            background-color: white;
+            margin-left: 35px;
+            margin-top: 35px;
+            box-shadow: 2px 2px 2px 2px lightgray;
+            border-radius: 10px;
+            height: 331px;
+        }
+
+        .box-item img {
+            height: 90px;
+            margin-left: 22;
+            margin-top: 19px;
+        }
+
+        .box-itemm {
+            border: 1px solid mediumblue;
+            width: 30%;
+            height: 331px;
+            border-radius: 10px;
+            color: white;
+            box-shadow: 2px 2px 2px 2px lightgray;
+            background-color: mediumblue;
+            margin-left: 35px;
+        }
+
+        .box-itemm img {
+            height: 90px;
+            margin-left: 22;
+            margin-top: 19px;
+        }
+
+        .banner {
+            background-image: url("./imgees.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 373px;
+            position: relative;
+
+        }
+
+        .job {
+            display: flex;
+        }
+
+        .job-info p {
+            margin-top: -19px;
+        }
+
+        .ruko {
+            display: flex;
+            padding-left: 170px;
+            padding-top: 25px;
+            padding-right: 75px;
+        }
+
+        .job-info {
+            margin-left: -10px;
+            margin-top: -12px;
+        }
+
+        .job-thum img {
+            width: 100px;
+        }
+
+        .side-bar img {
+            width: 100%;
+            height: 426px;
+        }
+
+        .heee {
+            margin-top: -40px;
+            font-size: 40px;
+            color: white;
+        }
+
+        .crowl {
+            width: 567px;
+        }
+
+        .button4 {
+            border: 1px solid white;
+            text-align: center;
+            width: 180px;
+            color: #bf7676;
+            margin-left: 560px;
+            border-radius: 99px;
+            margin-top: -20px;
+            height: 40px;
+            background-color: white;
+        }
+
+        .footer {
+            border: 1px solid hsl(0, 0%, 97%);
+            background: hsl(0, 0%, 97%);
+        }
+
+        .footer-logo {
+            margin-bottom: -189px;
+            text-align: center;
+        }
+
+        .footer-logo img {
+            margin-top: 50px;
+            width: 150px;
+        }
+
+        .social img {
+            width: 50px;
+        }
+
+        .dot {
+            border-bottom: 1px solid #bf7676;
+            margin-top: 250px;
+            margin-left: 72px;
+            margin-right: 72px;
+        }
+
+        .footer-para {
+            text-align: center;
+            color: darkgray;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1 style="font-size:30px; color: darkblue;">GO TO WORK <a><img src="./men walk.png"
+                        style="width: 50px; margin-bottom: -13px; margin-left: -20px;"></a>AMERICA</h1>
+            <p style="margin-top: -25px; color: darkblue; font-size: 13px;">National Fasting Growing Job</p>
+        </div>
+        <ul>
+            <li>
+                <div class="menu">
+                    <p><b>Log In</b></p>
+                </div><br>
+                <div class="menu1">
+                    <p>Create An Account</p>
+                </div><br>
+                <a><img src="./Path 49205.png" style="width: 36px; margin-top: 37px; margin-left: -51px;"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="side">
+
+        <div class="sidee">
+            <div class="para">
+                <h1 style="font-size: 32px;">The newest way to hire<br>
+                    and get hired fast</h1>
+                <p style="font-size: 18px;">INSTANT-HIRE VIDEO RESUME APP</p>
+                <div class="click-button">
+                    <div class="button">
+                        <p style="margin-top: 12px;">Need a Job?</p>
+                    </div>
+                    <div class="button1">
+                        <p style="margin-top: 12px;">Need to Hire?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="laptop">
+                <img src="./laptoo.png">
+            </div>
+        </div>
+    </div>
+    <div class="border">
+        <div class="intro">
+            <div class="thum">
+                <img src="./gool.png">
+            </div>
+            <div class="info">
+                <h1 style="font-size: 25px;">Who Are You</h1>
+                <p style="font-size: 18px;">With nearly 40 years of staffing experience, Go To Work america<br>
+                    is not only the nation's lpremier straffing solution provider for<br>
+                    employment, but also now the fastest way for today jov seekes<br>
+                    to find empliyment</p>
+                <p style="font-size: 18px;">Through advanced algorithmic software Fo To wordk America<br>
+                    allows Job seekes the opportunity to presetn thier work<br>
+                    availability in a short videeo resume format. this unique<br>
+                    properitary technology allows emplyeers to search from a pool<br>
+                    of fresh resources and hire immendiately.</p><br>
+                <div class="button3">
+                    <p style="margin-top: 8px; font-size: 20px;">Create Account</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text">
+        <h1>Employer Loooking to Hire</h1>
+        <p>try new employment is search and many more make? a good work and find a beautiful <br>
+            job for youself and you can seasrch new job and newesr find this time for money get way for this</p>
+    </div>
+    <div class="ruko">
+        <div class="crowl">
+            <div class="job">
+                <div class="job-thum">
+                    <img src="./one.png">
+                </div>
+                <div class="job-info">
+                    <h2>Sign Up</h2>
+                    <p>For your knowledge and applay for this job for new way for<br>
+                        save them of your Employer of your bank</p>
+                </div>
+            </div>
+            <div class="job">
+                <div class="job-thum">
+                    <img src="./two.png">
+                </div>
+                <div class="job-info">
+                    <h2>Create a Job</h2>
+                    <p>For your knowledge and applay for this job for new way for<br>
+                        save them of your Employer of your bank</p>
+                </div>
+            </div>
+            <div class="job">
+                <div class="job-thum">
+                    <img src="./three.png">
+                </div>
+                <div class="job-info">
+                    <h2>Find Job Seeker</h2>
+                    <p>For your knowledge and applay for this job for new way for<br>
+                        save them of your Employer of your bank</p>
+                </div>
+            </div>
+            <div class="job">
+                <div class="job-thum">
+                    <img src="./four.png">
+                </div>
+                <div class="job-info">
+                    <h2>Hire Instantly</h2>
+                    <p>For your knowledge and applay for this job for new way for<br>
+                        save them of your Employer of your bank</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="side-bar">
+            <img src="./slider.png">
+        </div>
+    </div>
+    <div class="silder">
+        <div class="break">
+            <div class="nail">
+                <img src="./mobile.png">
+            </div>
+            <div class="new-info">
+                <h1>Looking For a Job?</h1>
+                <p>Trying a search about your job? Need something<br>
+                    stable? let immployemt here</p>
+                <a><img src="./circle.png" style="width: 15px; margin-right: 10px;">No cost of you</a><br>
+                <a><img src="./circle.png" style="width: 15px; margin-right: 10px;">Enroll and download</a><br>
+                <a><img src="./circle.png" style="width: 15px; margin-right: 10px;">No cost of you</a><br>
+                <a><img src="./circle.png" style="width: 15px; margin-right: 10px;">No cost of you</a><br>
+                <h2>Get Hired as soon as today!</h2>
+                <img src="./iphone.png" style="width: 127px;"><img src="./googleapp.png"
+                    style="height: 38px; margin-left: 20px;">
+            </div>
+        </div>
+    </div>
+    <div class="travl">
+        <h1>Why go to America</h1>
+        <p>Tradional staffing solution are outrageouly expensive and infective</p>
+    </div>
+    <div class="box">
+        <div class="control">
+            <div class="box-items">
+                <a><img src="./one1.png"></a>
+                <h2 style="margin-top: 30px; margin-left: 25px; margin-bottom: -45px; font-size: 25px;">Cost Effective
+                </h2>
+                <p style="margin-left: 25px; margin-top: 60px; font-size: 18px;">No hidden fee and no salary decutud
+                    or<br>
+                    salary add the, just one flat fee for <br>
+                    all your staffing
+                </p>
+            </div>
+            <div class="box-item">
+                <a><img src="./two2.png"></a>
+                <h2 style="margin-top: 30px; margin-left: 25px; margin-bottom: -45px; font-size: 25px;">Cost Effective
+                </h2>
+                <p style="margin-left: 25px; margin-top: 60px; font-size: 18px;">No hidden fee and no salary decutud
+                    or<br>
+                    salary add the, just one flat fee for <br>
+                    all your staffing
+                </p>
+
+            </div>
+            <div class="box-itemm">
+                <a><img src="./three3.png"></a>
+                <h2 style="margin-top: 30px; margin-left: 30px; margin-bottom: -45px; font-size: 25px;">Cost Effective
+                </h2>
+                <p style="margin-left: 25px; margin-top: 60px; font-size: 18px;">No hidden fee and no salary decutud
+                    or<br>
+                    salary add the, just one flat fee for <br>
+                    all your staffing
+                </p>
+
+            </div>
+        </div>
+    </div><br><br><br>
+    <div class="banner"><br><br><br>
+        <div class="heee">
+            <p style="text-align: center;">Join The Fasting Growing Job <br>
+                Board In The National today With <br>
+                Go work to America</p>
+        </div>
+        <div class="button4">
+            <p style="margin-top: 10px;">Create Account</p>
+        </div>
+    </div><br><br><br><br>
+    <div class="footer">
+        <div class="footer-logo">
+            <h1 style="font-size:30px; color: darkblue;">GO TO WORK <a><img src="./men walk.png"
+                        style="width: 70px; margin-bottom: -13px; margin-left: -20px;"></a>AMERICA</h1>
+            <p style="margin-top: -25px; color: darkblue; margin-right: 200px; font-size: 13px;">National Fasting
+                Growing Job</p>
+            <a><img src="./iphone.png"><img src="./googleapp.png" style="margin-left: 25px;"></a><br>
+            <div class="social">
+                <img src="./Facebook.png" style="margin-left: 25px;">
+                <img src="./twiter.png" style="margin-left: 25px;">
+                <img src="./google.png" style="margin-left: 25px;">
+            </div>
+        </div>
+        <div class="dot">
+
+        </div>
+        <div class="footer-para">
+            <p>&copy; Copywrite 2022 Got to work in America | All Right Reversed</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
